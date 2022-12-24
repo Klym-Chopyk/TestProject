@@ -59,70 +59,40 @@ p {
     .block {
         width: 100%;
     }
+
+    .txtbox {
+        width: 100%;
+    }
+
+    .txtbox:hover {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 681px) and (max-width: 1140px) {
     .block {
         width: 32%;
     }
+
+    .txtbox {
+        width: 32%;
+    }
+
+    .txtbox:hover {
+        width: 32%;
+    }
 }
 
 @media only screen and (min-width: 1141px) {
     .block {
         width: 23%;
     }
-}
 
-@media only screen and (max-width: 680px) {
-    .txtbox {
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 681px) and (max-width: 1140px) {
-    .txtbox {
-        width: 32%;
-    }
-}
-
-@media only screen and (min-width: 1141px) {
     .txtbox {
         width: 23%;
     }
-}
 
-@media only screen and (max-width: 680px) {
     .txtbox:hover {
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 681px) and (max-width: 1140px) {
-    .txtbox:hover {
-        width: 32%;
-    }
-}
-
-@media only screen and (min-width: 1141px) {
-    .txtbox:hover {
-        width: 23%;
-    }
-}
-
-@media only screen and (max-width: 680px) {
-    div .txtbox {
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 681px) and (max-width: 1140px) {
-    div .txtbox {
-        width: 32%;
-    }
-}
-
-@media only screen and (min-width: 1141px) {
-    div .txtbox {
         width: 23%;
     }
 }
