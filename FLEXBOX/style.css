@@ -53,7 +53,7 @@ p {
 
 }
 
-/*Якщо закоментувати @media, то вступає в дію flex auto*/
+/*Якщо закоментувати @media, то вступає в дію flex auto* + не скролиться на 3 плитки вряд, тільки на 2 або 4/
 
 @media only screen and (max-width: 680px) {
     .block {
@@ -126,17 +126,6 @@ p {
         width: 23%;
     }
 }
-
-/*
-.main {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-*/
-
-
 
 /* Available breakpoints
 Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized if you’re using our source Sass files.
