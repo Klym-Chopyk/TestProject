@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    width: 100%;
+    background: fixed;
+    background-color: rgb(37, 164, 206);
+}
+
+.container {
+    display: flex;
+    background-color: rgb(20, 83, 83);
+    width: 600px;
+    min-height: 300px;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 0 5px grey;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(../CARD/img/photo.png);
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    max-height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-image: rgb(20, 83, 83);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.prof {
+    display: flex;
+    width: min-content;
+    height: min-content;
+    align-self: flex-end;
+}
+
+.button {
+    display: flex;
+    background-image: url(../CARD/img/icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37px;
+    width: 37px;
+    border: none;
+    border-radius: 24px;
+}
+
+.q-btn {
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background-image: url(../CARD/img/4467644.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    position: fixed;
+    top: 88%;
+    left: 92%;
+    transition: 1s ease-in-out;
+}
+
+.q-btn:hover {
+    transform: rotateX(180deg) rotateY(360deg) rotateX(540deg)
+}
+
+hr {
+    color: #fff;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    color: aliceblue;
+    font-size: large;
+    font-style: normal;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    color: aliceblue;
+    font-size: large;
+    font-style: normal;
+    text-align: justify;
+    overflow: auto;
+}
+
+span {
+    display: flex;
+    color: aliceblue;
+    font-size: large;
+    font-style: normal;
+    justify-content: right;
+}
+
+a {
+    display: flex;
+    justify-content: end;
+}
