@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+
 body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 
-header {
-    width: 100vh;
-}
-
-.header {
+header,
+footer {
     display: flex;
-    width: 100%;
+    min-width: 560px;
     height: 105px;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,8 @@ header {
     background: #F2C94C;
 }
 
-.header span {
+header span,
+footer span {
     font-family: Inter;
     font-size: 36px;
     font-weight: 700;
@@ -27,18 +28,19 @@ header {
 
 main {
     display: flex;
-    width: 100vh;
     justify-content: center;
-    align-items: center;
+    min-width: 520px;
+    max-width: 100em;
+    margin: 0 auto;
 }
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    width: 80%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    width: 100%;
+    grid-auto-rows: 200px auto;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
 }
 
 .child {
@@ -50,6 +52,7 @@ main {
     background-image: url(../GRID/img/img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
     box-shadow: 0px 15px 16px -5px rgba(0, 0, 0, 0.37);
     border-radius: 10px;
 }
@@ -86,26 +89,6 @@ main {
     margin: 0px;
 }
 
-.footer {
-    display: flex;
-    width: 100%;
-    height: 105px;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    background: #F2C94C;
-}
-
-.footer span {
-
-    font-family: Inter;
-    font-size: 36px;
-    font-weight: 700;
-    color: #000000;
-    line-height: 44px;
-    letter-spacing: 0em;
-}
-
 .parent :nth-child(1) {
     grid-area: 1/5/3/7;
 }
@@ -117,9 +100,3 @@ main {
 .parent :nth-child(6) {
     grid-area: 4/4/6/6;
 }
-
-
-/* grid-row-start: ;
-    grid-column-start: ;
-    grid-row-end: ;
-    grid-column-end: ;
