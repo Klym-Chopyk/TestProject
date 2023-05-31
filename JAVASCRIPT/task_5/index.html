@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar</title>
+</head>
+
+<body>
+    <h1>Календар</h1>
+
+    <form>
+        <div class="content-dir">
+            <div class="cal-value">
+                <label for="month">Місяць:</label>
+                <input type="number" id="month" name="month" min="1" max="12" required>
+                <label for="year">Рік:</label>
+                <input type="number" id="year" name="year" required>
+            </div>
+            <div class="gen-btn">
+                <input type="submit" value="Генерувати календар">
+            </div>
+            <div id="selectedDate">
+                Вибрана дата: <span id="selectedMonth"></span>/<span id="selectedYear"></span>
+            </div>
+        </div>
+    </form>
+
+    <div id="calendar"></div>
+    <script src="calendar.js"></script>
+</body>
+
+</html>

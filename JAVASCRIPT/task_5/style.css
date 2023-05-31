@@ -1,0 +1,52 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.content-dir {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cal-value {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.gen-btn {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+}
+
+#selectedDate {
+    display: none;
+}
