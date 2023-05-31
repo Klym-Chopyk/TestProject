@@ -1,0 +1,13 @@
+#content {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#edit-mode {
+    display: none;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+}
